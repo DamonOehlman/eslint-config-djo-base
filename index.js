@@ -7,6 +7,8 @@ module.exports = {
     ],
     rules: {
       "space-before-function-paren": [0],
-      "indent": ["error", 2]
+      "indent": ["error", 2],
+      "no-use-before-define": [0],
+      "comma-dangle": [2, "never"]
     }
 };
