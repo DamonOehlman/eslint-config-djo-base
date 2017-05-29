@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-djo-base",
+  "version": "1.0.0",
+  "description": "eslint base configuration for my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamonOehlman/eslint-config-djo-base.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/eslint-config-djo-base/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/eslint-config-djo-base#readme",
+  "peerDependencies": {
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
