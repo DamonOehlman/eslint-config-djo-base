@@ -19,7 +19,7 @@
     "url": "https://github.com/DamonOehlman/eslint-config-djo-base/issues"
   },
   "homepage": "https://github.com/DamonOehlman/eslint-config-djo-base#readme",
-  "peerDependencies": {
+  "dependencies": {
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.2.0"
