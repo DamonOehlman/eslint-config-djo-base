@@ -1,5 +1,5 @@
 module.exports = require('..');
-module.exports.rules = Object.extend({}, module.exports.rules, {
+module.exports.rules = Object.assign({}, module.exports.rules, {
   "no-var": [0],
   "prefer-arrow-callback": [0],
   "func-names": [0],
