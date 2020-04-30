@@ -4,7 +4,9 @@
   "description": "eslint base configuration for my projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   "dependencies": {
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.2.0"
-  }
+    "eslint-plugin-import": "^2.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
