@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/DamonOehlman/eslint-config-djo-base#readme",
   "dependencies": {
-    "eslint": "^7.9.0",
+    "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.2.0"
   }
